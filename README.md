@@ -5,6 +5,10 @@
  >    btn:[ '确定' , { text:'取消', skin:'cannel' } ]
  >}
 
+##laypage  131  分页跳转是不能输入值必须小于总页数大于0 
+>? '<span class="laypage_total"><label>&#x5230;&#x7B2C;</label><input type="text" min="1" onkeyup="var num = +(this.value.replace(/\\D/, \'\')); num = num >'+that.config.pages+'?'+that.config.pages+':num; this.value =num||\'\' ;  " class="laypage_skip"><label>&#x9875;</label>'
+
+
 
 
 ## 简要
